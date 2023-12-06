@@ -1,7 +1,0 @@
-openai
-# azure
-azure-cognitiveservices-speech
-praat-parselmouth
-PyAudio
-transformers
-torch
