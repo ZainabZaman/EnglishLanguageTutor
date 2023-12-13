@@ -1,47 +1,45 @@
-# EnglishLanguageTutorWithLessonsEvaluation
+# English Language Tutor With Lessons Evaluation
 
-## Lessons_Evaluation 
+## Project Overview
 
-This project serves as an English Language Tutor, providing lessons and evaluating user responses for pronunciation, accuracy, completeness, fluency, and pitch.
+The **English Language Tutor With Lessons Evaluation** project is designed to serve as an advanced English language tutor, offering lessons on various topics and providing comprehensive evaluations of user responses, including pronunciation, accuracy, completeness, fluency, and pitch.
 
-## Overview
+### Key Features
 
-The English Language Tutor script incorporates multiple modules for assessing and tutoring users on different language-related aspects.
+- **Lesson Modules:** Engage in lessons covering a wide range of topics.
+- **Pronunciation Assessment:** Evaluate pronunciation accuracy for improved language skills.
+- **Fluency Evaluation:** Assess user responses for fluency and coherence.
+- **Pitch Analysis:** Analyze speech pitch for enhanced communication skills.
 
-### Features
+### Detailed Analysis
 
-- Lessons on various topics.
-- Pronunciation assessment.
-- Fluency evaluation.
-- Pitch analysis.
+The project includes a thorough analysis at various levels:
 
-### Analysis
-- Per lesson evaluation.
-- Per lesson entry evaluation.
-- Per word evaluation.
-    
+- **Per Lesson Evaluation:** Obtain an overall evaluation for each lesson.
+- **Per Lesson Entry Evaluation:** Assess user responses for individual lesson entries.
+- **Per Word Evaluation:** Evaluate pronunciation and fluency at the word level.
+
 ## Dependencies
 
-Make sure to install the necessary dependencies through the provided requirements.txt file
+Ensure you have the required dependencies installed by running the following command:
 
 ```bash
 pip install -r requirements.txt
 ```
+Replace YOUR_OPENAI_API_KEY in the code with your unique API key.
 
-Set your OpenAI API key. Replace YOUR_OPENAI_API_KEY in the code with your actual key.
-
-### Usage
-To use the application run the main file named as `lessons_evaluation.py` 
+##Usage
+To utilize the application, execute the main file, `lessons_evaluation.p`y:
 ```python
 python lessons_evaluation.py
 ```
-The script includes predefined lessons in arrays for users to respond to. Customize the lessons based on your needs and the `option` variable lets the user decide which lessons he wants to work on. User responses are evaluated based on multiple criteria, including `accuacy`, `completeness`, `fluency`, `per_word_pitch`, `overall_pitch`, `relevancy`, providing an overall evaluation of each lesson based on these scores.
-The script takes three inputs from the user
-- Option: Lesson selection
-- User text response: Textual response to the lesson entry
-- User audio response: Speech response to the lesson entry
+The script incorporates predefined lessons in arrays for users to respond to. The option variable allows users to select specific lessons. User responses are meticulously evaluated based on criteria such as accuracy, completeness, fluency, per-word pitch, overall pitch, and relevancy. This comprehensive evaluation provides valuable feedback on each lesson.
 
-## Acknowledgments
+The script prompts users for three inputs:
 
-- `Azure Speech SDK` is used for pronunciation evaluation 
- 
+- Option: Choose a lesson for focused learning.
+- User Text Response: Provide a textual response to the lesson entry.
+- User Audio Response: Deliver a speech response to the lesson entry.
+
+##Acknowledgments
+This project acknowledges the use of the Azure Speech SDK for robust pronunciation evaluation.
