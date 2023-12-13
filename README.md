@@ -2,7 +2,7 @@
 
 ## Lessons_Evaluation 
 
-This Python script serves as an English Language Tutor, providing lessons and evaluating user responses for pronunciation, accuracy, completeness, fluency, and pitch.
+This project serves as an English Language Tutor, providing lessons and evaluating user responses for pronunciation, accuracy, completeness, fluency, and pitch.
 
 ## Overview
 
@@ -15,14 +15,24 @@ The English Language Tutor script incorporates multiple modules for assessing an
 - Fluency evaluation.
 - Pitch analysis.
 
+### Analysis
+- Per lesson evaluation.
+- Per lesson entry evaluation.
+- Per word evaluation.
+    
 ## Dependencies
 
-Make sure to install the necessary dependencies before running the script:
+Make sure to install the necessary dependencies through the provided requirements.txt file
 
 ```bash
-pip install openai pronounce_assessment_file tts intonation get_audio relevancy
+pip install -r requirements.txt
 ```
 
 Set your OpenAI API key. Replace YOUR_OPENAI_API_KEY in the code with your actual key.
 
 ### Usage
+To use the application run the main file named as `lessons_evaluation.py` 
+```python
+python lessons_evaluation.py
+```
+The script includes predefined lessons in arrays for users to respond to. Customize the lessons based on your needs and the `option` variable lets the user decide which lessons he wants to work on. User responses are evaluated based on multiple criteria, including `accuacy`, `completeness`, `fluency`, `per_word_pitch`, `overall_pitch`, `relevancy`, providing an overall evaluation of each lesson based on these scores. 
