@@ -35,4 +35,13 @@ To use the application run the main file named as `lessons_evaluation.py`
 ```python
 python lessons_evaluation.py
 ```
-The script includes predefined lessons in arrays for users to respond to. Customize the lessons based on your needs and the `option` variable lets the user decide which lessons he wants to work on. User responses are evaluated based on multiple criteria, including `accuacy`, `completeness`, `fluency`, `per_word_pitch`, `overall_pitch`, `relevancy`, providing an overall evaluation of each lesson based on these scores. 
+The script includes predefined lessons in arrays for users to respond to. Customize the lessons based on your needs and the `option` variable lets the user decide which lessons he wants to work on. User responses are evaluated based on multiple criteria, including `accuacy`, `completeness`, `fluency`, `per_word_pitch`, `overall_pitch`, `relevancy`, providing an overall evaluation of each lesson based on these scores.
+The script takes three inputs from the user
+- Option: Lesson selection
+- User text response: Textual response to the lesson entry
+- User audio response: Speech response to the lesson entry
+
+## Acknowledgments
+
+- `Azure Speech SDK` is used for pronunciation evaluation 
+ 
