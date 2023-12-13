@@ -29,7 +29,7 @@ pip install -r requirements.txt
 Replace YOUR_OPENAI_API_KEY in the code with your unique API key.
 
 ## Usage
-To utilize the application, execute the main file, `lessons_evaluation.p`y:
+To utilize the application, execute the main file, `lessons_evaluation.py`:
 ```python
 python lessons_evaluation.py
 ```
