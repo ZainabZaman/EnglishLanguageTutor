@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ```
 Replace YOUR_OPENAI_API_KEY in the code with your unique API key.
 
-##Usage
+## Usage
 To utilize the application, execute the main file, `lessons_evaluation.p`y:
 ```python
 python lessons_evaluation.py
@@ -41,5 +41,5 @@ The script prompts users for three inputs:
 - User Text Response: Provide a textual response to the lesson entry.
 - User Audio Response: Deliver a speech response to the lesson entry.
 
-##Acknowledgments
+## Acknowledgments
 This project acknowledges the use of the Azure Speech SDK for robust pronunciation evaluation.
