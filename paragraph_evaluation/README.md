@@ -25,7 +25,7 @@ Replace YOUR_OPENAI_API_KEY in the code with your actual OpenAI API key and 'YOU
 
 ## Usage
 The script narrates a paragraph for the user and then takes a narration input of the same paragraph from the user and evaluates responses based on various criteria, including accuracy, completeness, fluency, prosody scores, per-word evaluation, pitch per word, overall pitch, and relevancy score.
-To use the application, execute the main file, `readung_paragraph_evaluation.py`:
+To use the application, execute the main file, `reading_paragraph_evaluation.py`:
 ```python
 python readung_paragraph_evaluation.py
 ```
